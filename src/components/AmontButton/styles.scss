@@ -1,0 +1,24 @@
+.quantity-control {
+  display: flex;
+  align-items: center;
+}
+
+button {
+  padding: 5px 10px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+input[type="number"] {
+  width: 30px;
+  -moz-appearance: textfield;
+  appearance: none;
+  text-align: center;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  appearance: none;
+  margin: 0;
+}

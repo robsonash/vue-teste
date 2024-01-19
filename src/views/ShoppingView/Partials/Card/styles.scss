@@ -1,0 +1,16 @@
+.c-container-card {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 30px;
+}
+button {
+  color: rgb(0 0 0);
+  border-radius: 5px;
+  background: #ffd300;
+}
+@media screen and (max-width: 600px) {
+  .c-container-card {
+    justify-content: center;
+  }
+}

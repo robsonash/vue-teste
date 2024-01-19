@@ -1,0 +1,39 @@
+.c-container {
+  max-width: 900px;
+  margin: 0 auto;
+  height: 100%;
+}
+.c-container-table {
+  margin-bottom: 80px;
+}
+.c-add-user {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.c-add-button {
+  display: flex;
+  align-items: flex-end;
+  margin-top: 35px;
+  .btn {
+    background-color: #54c094;
+    color: white;
+  }
+}
+.c-icone {
+  color: #a4a4a4;
+  font-size: 60px;
+}
+.c-body {
+  padding: 40px;
+}
+.c-container-icone {
+  display: flex;
+  align-items: center;
+  &-text {
+    margin-top: 22px;
+    color: #a4a4a4;
+    font-size: 20px;
+  }
+}

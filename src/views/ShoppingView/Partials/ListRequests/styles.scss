@@ -1,0 +1,11 @@
+.c-list {
+  .c-list-item {
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .c-name {
+    max-width: 300px;
+    min-width: 300px;
+  }
+}

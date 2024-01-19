@@ -1,0 +1,51 @@
+.c-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 100%;
+}
+.c-container-table {
+  margin-bottom: 80px;
+}
+.c-add-user {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  max-width: 1096px;
+}
+.c-button {
+  display: flex;
+  align-items: flex-end;
+  margin-top: 35px;
+  gap: 15px;
+  margin-right: 10px;
+}
+.c-icone {
+  color: #a4a4a4;
+  font-size: 60px;
+}
+.c-shopping-body {
+  padding: 40px;
+}
+.c-container-button-cart {
+  .c-cart {
+    font-size: 26px;
+  }
+}
+.c-container-icone {
+  display: flex;
+  align-items: center;
+  &-text {
+    margin-top: 22px;
+    color: #a4a4a4;
+    font-size: 20px;
+  }
+}
+.disabled {
+  cursor: no-drop;
+}
+@media screen and (max-width: 470px) {
+  .c-shopping-body {
+    padding: 20px;
+  }
+}

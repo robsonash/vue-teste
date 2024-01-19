@@ -1,0 +1,254 @@
+{
+  "pessoas": [
+    {
+      "nome": "Robson Cavalcanti Sampaio",
+      "cpf": "039.546.210-02",
+      "dataNascimento": "1992-04-23",
+      "id": 1
+    },
+    {
+      "nome": "Ananda Carolinne Gomes Pereira",
+      "cpf": "329.998.700-35",
+      "dataNascimento": "1994-02-06",
+      "id": 2
+    },
+    {
+      "nome": "Genilza Cavalcanti Sampaio",
+      "cpf": "987.103.610-81",
+      "dataNascimento": "1990-01-01",
+      "id": 3
+    },
+    {
+      "nome": "Nelson Roberto Rodrigues Sampaio",
+      "cpf": "556.219.690-57",
+      "dataNascimento": "1994-01-01",
+      "id": 4
+    },
+    {
+      "nome": "Maria Isabel",
+      "cpf": "956.881.540-63",
+      "dataNascimento": "1994-01-01",
+      "id": 5
+    }
+  ],
+  "produtos": [
+    {
+      "nome": "Harry Potter e a Pedra Filosofal",
+      "descricao": "Harry Potter é um garoto cujos pais, feiticeiros, foram assassinados por um poderosíssimo bruxo quando ele ainda era um bebê. Ele foi levado, então, para a casa dos tios que nada tinham a ver com o sobrenatural.",
+      "valorUnitario": 10,
+      "id": 1
+    },
+    {
+      "nome": "O Senhor dos Anéis: A Sociedade do Anel",
+      "descricao": "O volume inicial de O Senhor dos Anéis, lançado originalmente em julho de 1954, foi o primeiro grande épico de fantasia moderno, conquistando milhões de leitores e se tornando o padrão de referência para todas as outras obras do gênero até hoje.",
+      "valorUnitario": 8.88,
+      "id": 2
+    },
+    {
+      "nome": "Jogos Vorazes",
+      "descricao": "Na abertura dos Jogos Vorazes, a organização não recolhe os corpos dos combatentes caídos e dá tiros de canhão até o final. Cada tiro, um morto",
+      "valorUnitario": 10,
+      "id": 4
+    }
+  ],
+  "pedidos": [
+    {
+      "cliente": {
+        "id": 1,
+        "nome": "Robson Cavalcanti Sampaio"
+      },
+      "dataEmissao": "2023-09-07",
+      "valorTotal": 30,
+      "itens": [
+        {
+          "id": 1,
+          "produto": {
+            "id": 4,
+            "nome": "Jogos Vorazes"
+          },
+          "valor": 10,
+          "quantidade": 3,
+          "subtotal": 30
+        }
+      ],
+      "id": 6
+    },
+    {
+      "cliente": {
+        "id": 2,
+        "nome": "Ananda Carolinne Gomes Pereira"
+      },
+      "dataEmissao": "2023-09-07",
+      "valorTotal": 10,
+      "itens": [
+        {
+          "id": 1,
+          "produto": {
+            "id": 1,
+            "nome": "Harry Potter e a Pedra Filosofal"
+          },
+          "valor": 10,
+          "quantidade": 1,
+          "subtotal": 10
+        }
+      ],
+      "id": 7
+    },
+    {
+      "cliente": {
+        "id": 3,
+        "nome": "Genilza Cavalcanti Sampaio"
+      },
+      "dataEmissao": "2023-09-07",
+      "valorTotal": 140,
+      "itens": [
+        {
+          "id": 1,
+          "produto": {
+            "id": 4,
+            "nome": "Jogos Vorazes"
+          },
+          "valor": 10,
+          "quantidade": 14,
+          "subtotal": 140
+        }
+      ],
+      "id": 8
+    },
+    {
+      "cliente": {
+        "id": 4,
+        "nome": "Nelson Roberto Rodrigues Sampaio"
+      },
+      "dataEmissao": "2023-09-07",
+      "valorTotal": 58.88,
+      "itens": [
+        {
+          "id": 1,
+          "produto": {
+            "id": 1,
+            "nome": "Harry Potter e a Pedra Filosofal"
+          },
+          "valor": 10,
+          "quantidade": 5,
+          "subtotal": 50
+        },
+        {
+          "id": 2,
+          "produto": {
+            "id": 2,
+            "nome": "O Senhor dos Anéis: A Sociedade do Anel"
+          },
+          "valor": 8.88,
+          "quantidade": 1,
+          "subtotal": 8.88
+        }
+      ],
+      "id": 9
+    },
+    {
+      "cliente": {
+        "id": 5,
+        "nome": "Maria Isabel"
+      },
+      "dataEmissao": "2023-09-07",
+      "valorTotal": 468.72,
+      "itens": [
+        {
+          "id": 1,
+          "produto": {
+            "id": 2,
+            "nome": "O Senhor dos Anéis: A Sociedade do Anel"
+          },
+          "valor": 8.88,
+          "quantidade": 19,
+          "subtotal": 168.72000000000003
+        },
+        {
+          "id": 2,
+          "produto": {
+            "id": 1,
+            "nome": "Harry Potter e a Pedra Filosofal"
+          },
+          "valor": 10,
+          "quantidade": 15,
+          "subtotal": 150
+        },
+        {
+          "id": 3,
+          "produto": {
+            "id": 4,
+            "nome": "Jogos Vorazes"
+          },
+          "valor": 10,
+          "quantidade": 15,
+          "subtotal": 150
+        }
+      ],
+      "id": 10
+    },
+    {
+      "cliente": {
+        "id": 1,
+        "nome": "Robson Cavalcanti Sampaio"
+      },
+      "dataEmissao": "2023-09-07",
+      "valorTotal": 50,
+      "itens": [
+        {
+          "id": 1,
+          "produto": {
+            "id": 4,
+            "nome": "Jogos Vorazes"
+          },
+          "valor": 10,
+          "quantidade": 5,
+          "subtotal": 50
+        }
+      ],
+      "id": 11
+    },
+    {
+      "cliente": {
+        "id": 1,
+        "nome": "Robson Cavalcanti Sampaio"
+      },
+      "dataEmissao": "2023-09-07",
+      "valorTotal": 35.52,
+      "itens": [
+        {
+          "id": 1,
+          "produto": {
+            "id": 2,
+            "nome": "O Senhor dos Anéis: A Sociedade do Anel"
+          },
+          "valor": 8.88,
+          "quantidade": 4,
+          "subtotal": 35.52
+        }
+      ],
+      "id": 12
+    },
+    {
+      "cliente": {
+        "id": 1,
+        "nome": "Robson Cavalcanti Sampaio"
+      },
+      "dataEmissao": "2023-09-07",
+      "valorTotal": 26.64,
+      "itens": [
+        {
+          "id": 1,
+          "produto": {
+            "id": 2,
+            "nome": "O Senhor dos Anéis: A Sociedade do Anel"
+          },
+          "valor": 8.88,
+          "quantidade": 3,
+          "subtotal": 26.64
+        }
+      ],
+      "id": 13
+    }
+  ]
+}

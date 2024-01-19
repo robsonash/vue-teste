@@ -1,0 +1,23 @@
+.v-card__title {
+  border-bottom: 1px solid #8080804d;
+}
+.v-card__actions {
+  border-top: 1px solid #8080804d;
+}
+.c-title {
+  padding: 16px;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 2rem;
+  letter-spacing: normal !important;
+  font-family: "Roboto", sans-serif !important;
+}
+@media screen and (max-width: 470px) {
+  .v-card__title {
+    padding: 12px !important;
+    padding-bottom: 0px !important;
+  }
+  .c-title {
+    font-size: 19px !important;
+  }
+}
